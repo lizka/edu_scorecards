@@ -25,3 +25,4 @@ You will also see any lint errors in the console.
 - Consider to use SASS preprocessor
 - Consider use `Observable` from `rxjs` to provide nicer search user experience
 - Consider change layout for mobile, find better design than hide The Little Prince image
+- Run Lighthouse from DevTools to check performance and accessibility
