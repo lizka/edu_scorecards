@@ -19,3 +19,9 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ## TODO
+
+- Add unit tests for Search functionality, consider edge cases
+- Cleanup SVG image
+- Consider to use SASS preprocessor
+- Consider use `Observable` from `rxjs` to provide nicer search user experience
+- Consider change layout for mobile, find better design than hide The Little Prince image
