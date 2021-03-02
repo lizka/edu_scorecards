@@ -1,0 +1,42 @@
+.notion-media__img {
+    display: table-cell;
+    height: 50vmin;
+    max-width: 384px;
+    pointer-events: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .notion-media__img {
+      display: none;
+    }
+  }
+  
+  .notion-media {
+    margin: 0 auto;
+    max-width: 949px;
+  }
+  
+  .notion-media__container {
+    display: table-row;
+  }
+  
+  .notion-media__body {
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 565px;
+    text-align: left;
+  }
+  
+  .primary-text__header {  
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: -1.85px;
+  }
+  
+  .secondary-text__header {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+  }
