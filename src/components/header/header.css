@@ -1,16 +1,16 @@
-.notion__header {
+.notion-header {
     margin: 20px 0 82px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 
-.notion__logo {
+.notion-logo__text {
     font-weight: bold;
     font-size: 24px;
 }
 
-.notion__navigation li {
+.notion-navigation li {
     position: relative;
     z-index: 0;
     display: inline-block;
@@ -20,7 +20,7 @@
 }
 
 /* Animation for navigation  */
-.notion__navigation li:after {
+.notion-navigation li:after {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -33,7 +33,7 @@
     transform: translateY(-10px);
 }
 
-.notion__navigation li:hover:after,
+.notion-navigation li:hover:after,
 li.active:after {
     opacity: 1;
     transform: translateY(0px);
