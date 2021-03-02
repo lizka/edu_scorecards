@@ -3,6 +3,10 @@ import * as d3 from 'd3';
 
 import scoreCardFile from '../mocks/edu-scorecard.csv';
 
+import Header from './header/header';
+import Hero from './hero/hero';
+import Cards from './cards/cards';
+
 class App extends React.Component {
     state = {
         cards: [],
@@ -14,17 +18,17 @@ class App extends React.Component {
         this.setState({
             cards: response
         });
-        console.log(this.state.cards);
     }
 
     render() {    
         return (
             <main className="ui container">
-               <h1>Hello Notion!</h1> 
+                <Header/>
+                <Hero />
+                <Cards cards={this.state.cards} query={this.state.query}/>
             </main>
         );
     }
 };
 
 export default App;
-
