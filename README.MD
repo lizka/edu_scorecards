@@ -1,5 +1,8 @@
 A visual database that allows you the user to search between universities. 
 
+![Score Cards Demo](https://user-images.githubusercontent.com/667454/109609893-daf9d080-7ae0-11eb-8ece-2637b0f42b9a.gif)
+
+
 # Getting Started with University Score Cards
 
 Clone or download a source code.
