@@ -1,0 +1,40 @@
+.notion__header {
+    margin: 20px 0 82px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.notion__logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.notion__navigation li {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    margin: 0 24px 0 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Animation for navigation  */
+.notion__navigation li:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary-color);
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    transform: translateY(-10px);
+}
+
+.notion__navigation li:hover:after,
+li.active:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
