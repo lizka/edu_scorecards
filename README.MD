@@ -24,8 +24,8 @@ You will also see any lint errors in the console.
 ## TODO
 
 - Add unit tests for Search functionality, consider edge cases
-- Cleanup SVG image
-- Consider to use SASS preprocessor
-- Consider use `Observable` from `rxjs` to provide nicer search user experience
-- Consider change layout for mobile, find better design than hide The Little Prince image
-- Run Lighthouse from DevTools to check performance and accessibility
+- Clean up SVG image with `SVGOMG`
+- Consider using `SASS` preprocessor
+- Consider using `Observable` from `rxjs` to provide nicer search user experience or implement debounce function
+- Consider changing layout for mobile, find better design than hide The Little Prince image
+- Run Lighthouse from `DevTools` to check performance and accessibility
