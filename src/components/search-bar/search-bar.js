@@ -13,9 +13,11 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <form className="notion-search-bar__container" onChange={this.onFormChange} onSubmit={this.onFormChange}>
-                <input className="notion-search-bar" type="text" value={this.state.query} placeholder="Search..." onChange={(e) => this.setState({ query: e.target.value }) } />
-            </form>
+            <section className="notion-search-bar__container">
+                <form onChange={this.onFormChange} onSubmit={this.onFormChange}>
+                    <input className="notion-search-bar" type="text" value={this.state.query} placeholder="Search..." onChange={(e) => this.setState({ query: e.target.value }) } />
+                </form>
+            </section>
         );
     }
 }
