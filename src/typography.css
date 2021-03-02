@@ -22,16 +22,22 @@ li {
     box-sizing: border-box;
 }
 
-.primary-text__header {  
+.primary-text__header {
     font-size: 69px;
     font-weight: 700;
     line-height: 69px;
     letter-spacing: -1.85px;
-  }
-  
-  .secondary-text__header {
+}
+
+.secondary-text__header {
     font-size: 20px;
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0px;
-  }
+}
+
+li {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+}
